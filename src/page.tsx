@@ -8,7 +8,7 @@ import Contact from "./contact/contact.tsx";
 
 export default function Main() {
   return (
-    <Router>
+    <Router basename="/Justinv1234.github.io">
       <div className="min-h-screen flex justify-center bg-[#202020] text-white">
         <article className="flex flex-col gap-5 w-[704px]">
           <section className="sticky top-0 h-20 backdrop-blur-sm bg-[#202020] bg-opacity-80 z-50">

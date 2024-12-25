@@ -15,7 +15,7 @@ export default function Introduction() {
           -year-old software engineer studying at Monmouth University
         </p>
         <p className="mt-2 font-light">
-          I like to create projects, play video games, and build pretty mediocre
+          I like to create projects, play video games, and build pretty awesome
           webistes. Here, take a look:
         </p>
       </div>

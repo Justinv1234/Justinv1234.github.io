@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/Navbar.tsx";
 import Home from "./home/home.tsx";

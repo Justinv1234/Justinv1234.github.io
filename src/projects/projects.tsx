@@ -1,8 +1,10 @@
+import DisplayProjects from "../components/DisplayProjects";
+
 export default function Projects() {
   return (
-    <section className="flex flex-col items-center gap-5 max-w-screen-md">
-      <h1 className="text-2xl font-bold">Projects</h1>
-      <p>Details on my projects will go here.</p>
-    </section>
+    <div className="flex flex-col md:text-left">
+      <h1 className="text-5xl font-semibold">My Projects.</h1>
+      <DisplayProjects featuredOnly={false} />
+    </div>
   );
 }

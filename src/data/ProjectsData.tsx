@@ -18,6 +18,7 @@ export const projectInfo = [
         buttonIcon: "GithubLogo",
       },
     ],
+    isFeatured: true,
   },
   {
     title: "FTC PowerPlay",
@@ -35,5 +36,24 @@ export const projectInfo = [
         buttonIcon: "VideoReel",
       },
     ],
+    isFeatured: true
+  },
+  {
+    title: "Not Featured!",
+    websiteURL: "MonmouthLogo.jpg",
+    description:
+      "This shouldn't show up on my home page since it is not featured, however good news if you see this on my projects section!",
+    tags: ["Nothing", "Hopefully Nothing", "Burger"],
+    buttons: [
+      {
+        buttonName: "Souce",
+        buttonIcon: "GithubLogo",
+      },
+      {
+        buttonName: "In Action",
+        buttonIcon: "VideoReel",
+      },
+    ],
+    isFeatured: false
   },
 ];

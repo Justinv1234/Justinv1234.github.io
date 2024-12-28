@@ -1,7 +1,7 @@
 import Timeline from "../components/Timeline.tsx";
 import Socials from "../components/Socials.tsx";
 import Introduction from "../components/Introduction.tsx";
-import FeaturedProjects from "../components/FeaturedProjects.tsx";
+import DisplayProjects from "../components/DisplayProjects.tsx";
 
 export default function Home() {
   return (
@@ -16,8 +16,9 @@ export default function Home() {
         <Timeline />
       </section>
 
-      <section className="flex flex-col max-w-screen-md mt-4">
-        <FeaturedProjects />
+      <section className="flex flex-col max-w-screen-md">
+        <h1 className="text-2xl sm:text-3xl">Featured Projects</h1>
+        <DisplayProjects featuredOnly={true} />
       </section>
     </>
   );

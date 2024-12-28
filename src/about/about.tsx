@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <section className="flex flex-col items-center gap-5 max-w-screen-md">
-      <h1 className="text-2xl font-bold">About Me</h1>
-      <p>Information about myself goes here. </p>
-    </section>
+    <div className="flex flex-col">
+      <h1 className="text-5xl font-semibold">About Me.</h1>
+      <h3 className="text-3x">About me goes here.</h3>
+    </div>
   );
 }

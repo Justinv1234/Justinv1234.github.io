@@ -16,7 +16,7 @@ export default function Introduction() {
         </p>
         <p className="mt-2 font-light">
           I like to create projects, play video games, and build pretty awesome
-          webistes. Here, take a look:
+          websites. Here, take a look:
         </p>
       </div>
     </>

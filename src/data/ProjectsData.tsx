@@ -3,7 +3,7 @@ export const projectInfo = [
     title: "Portfolio Website",
     websiteURL: "WebsiteImage.png",
     description:
-      "This is my current portfolio website created using React.js and Tailwind CSS that is currently hosted on Github Pages. Built dynamically and scalable for any device.",
+      "This is my current portfolio website created using React.js and Tailwind CSS that is currently hosted on Github Pages. Collects and stores data using Firebase and built dynamically for any device.",
     tags: [
       "HTML",
       "TypeScript",
@@ -11,6 +11,7 @@ export const projectInfo = [
       "Tailwind CSS",
       "Github Pages",
       "Radix UI",
+      "Firebase",
     ],
     buttons: [
       {
@@ -36,24 +37,6 @@ export const projectInfo = [
         buttonIcon: "VideoReel",
       },
     ],
-    isFeatured: true
-  },
-  {
-    title: "Not Featured!",
-    websiteURL: "MonmouthLogo.jpg",
-    description:
-      "This shouldn't show up on my home page since it is not featured, however good news if you see this on my projects section!",
-    tags: ["Nothing", "Hopefully Nothing", "Burger"],
-    buttons: [
-      {
-        buttonName: "Souce",
-        buttonIcon: "GithubLogo",
-      },
-      {
-        buttonName: "In Action",
-        buttonIcon: "VideoReel",
-      },
-    ],
-    isFeatured: false
+    isFeatured: true,
   },
 ];

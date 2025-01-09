@@ -17,7 +17,7 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col max-w-screen-md">
-        <h1 className="text-2xl sm:text-3xl">Featured Projects</h1>
+        <h1 className="text-2xl text-center sm:text-3xl  sm:text-left">Featured Projects</h1>
         <DisplayProjects featuredOnly={true} />
       </section>
     </>

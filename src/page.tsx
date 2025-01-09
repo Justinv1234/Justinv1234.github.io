@@ -3,7 +3,6 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.tsx";
 import Home from "./home/home.tsx";
 import Projects from "./projects/projects.tsx";
-import About from "./about/about.tsx";
 import Contact from "./contact/contact.tsx";
 
 export default function Main() {
@@ -18,7 +17,6 @@ export default function Main() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/about-me" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
 

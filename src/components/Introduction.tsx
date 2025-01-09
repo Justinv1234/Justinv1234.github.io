@@ -15,10 +15,22 @@ export default function Introduction() {
           -year-old software engineer studying at Monmouth University
         </p>
         <p className="mt-2 font-light">
-          I like to create projects, play video games, and build pretty awesome
-          websites. Here, take a look:
+          My primary focus is backend development, where I work with Java and
+          C++, but I'm always open to exploring other areas of software
+          engineering.
+        </p>
+        <p className="mt-2 font-light">
+          I enjoy the challenge of debugging, finding satisfaction in the
+          understanding and solving of complex issues.
         </p>
       </div>
     </>
   );
 }
+
+/*
+        <p className="mt-2 font-light">
+          I like to create projects, play video games, and build pretty awesome
+          websites. Here, take a look:
+        </p>
+        */

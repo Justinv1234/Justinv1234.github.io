@@ -43,7 +43,7 @@ export default function DisplayProjects({
 
   return (
     <div className="px-8 mt-10">
-      <section className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:text-left text-center">
         {mappedProjects}
       </section>
     </div>

@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAuLTOpLyuZOjHzDzxXuRqKRDWr6ObOEjU",
+  apiKey: process.env.REACT_APP_GOOGLE_API_KEY,
   authDomain: "personal-website-aa.firebaseapp.com",
   projectId: "personal-website-aa",
   storageBucket: "personal-website-aa.firebasestorage.app",
